@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Cwrn-Clothing E-Commerce App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an E-commerce project bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This project has navigation and routing that takes you to different pages of categories of items. You can add and remove items from the cart and checkout items. At the checkout page you can increase or decrease the quantity of items. All these changes are updated in real time in both our checkout page and cart dropdown.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. Authentication and storage with `Firebase`.
+2. Authorization with `Google Sign-In` in Firebase.
+3. Sign up and Sign in with email and password feature.
+4. Sign out feature after signing in.
+5. Deployment on `Netlify`.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **[Live Demo](https://stunning-starship-73d7ed.netlify.app/)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone repository
 
-### `npm run build`
+```bash
+git clone https://github.com/0binna/crwn-clothing.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Go to project directory
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+cd crwn-clothing
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Install Dependencies
 
-### `npm run eject`
+1. **Install Node and NPM**
+   This project depends on Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (the download includes NPM) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install project dependencies**
+   This project uses NPM to manage software dependencies. NPM Relies on the package.json file located in the root directory of this repository. After cloning, open your terminal and run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> _tip_: `npm i`is shorthand for `npm install`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Running the application in Dev Mode
 
-## Learn More
+The e-commerce app was built using `react.js`. In order to run the app in development mode use `npm start`. You can change the script in the `package.json` file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+## **App Preview**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+![](https://i.imgur.com/1qayQ5F.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![](https://i.imgur.com/IHNs9xZ.png)
 
-### Making a Progressive Web App
+![](https://i.imgur.com/CT4yIHR.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](https://i.imgur.com/3RUJwFb.png)
